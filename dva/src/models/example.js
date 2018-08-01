@@ -258,6 +258,23 @@ export default {
       data: parse(l2),
     }],
     lineIndex: 0,
+    events: [
+      {
+        tower: 1,
+        type: 1,
+        created: '2018-08-01 11:11:00',
+      },
+      {
+        tower: 2,
+        type: 1,
+        created: '2018-08-01 11:11:00',
+      },
+      {
+        tower: 3,
+        type: 1,
+        created: '2018-08-01 11:11:00',
+      }
+    ],
   },
 
   subscriptions: {
